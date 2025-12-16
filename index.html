@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Viking Guessing Game</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <div class="game-box">
+        <h1>⚔️ Viking Guessing Game ⚔️</h1>
+        <p>I am thinking of a number between 1 and 20</p>
+
+        <form method="POST">
+            <input type="text" name="guess" placeholder="Enter number or q">
+            <button type="submit">Guess</button>
+        </form>
+
+        <p class="message">{{ message }}</p>
+    </div>
+
+</body>
+</html>
